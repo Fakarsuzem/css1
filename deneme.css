@@ -1,0 +1,48 @@
+h1 {
+  text-shadow: 2px 2px 5px purple;
+}
+h2{
+  color: rgb(93, 2, 93);
+}
+
+h3{
+  color: rgb(22, 162, 0);
+  text-decoration-line: underline;
+  text-decoration-thickness: 5px;
+}
+
+ol {
+    list-style-position: inside;
+  }
+
+ul{     list-style-position: inside;
+}
+body {
+  background-color: antiquewhite;
+  text-align: center;
+}
+
+  .button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: purple;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: black}
+  
+  .button:active {
+    background-color: purple;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+ 
+  /* AÇIKLAMA SATIRI */
